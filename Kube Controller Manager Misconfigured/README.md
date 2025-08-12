@@ -75,16 +75,16 @@ spec:
 After removing the invalid flag and re-checking the pod status, it should now be in the Running state.
 ```
 NAMESPACE            NAME                                      READY   STATUS    RESTARTS      AGE
-kube-system          calico-kube-controllers-fdf5f5495-g6nd4   1/1     Running   1 (49m ago)   23d
-kube-system          canal-grvvt                               2/2     Running   2 (49m ago)   23d
-kube-system          coredns-6ff97d97f9-8v98s                  1/1     Running   1 (49m ago)   23d
-kube-system          coredns-6ff97d97f9-9j8cr                  1/1     Running   1 (49m ago)   23d
-kube-system          etcd-controlplane                         1/1     Running   1 (49m ago)   23d
-kube-system          kube-apiserver-controlplane               1/1     Running   1 (49m ago)   23d
-kube-system          kube-controller-manager-controlplane      0/1     Running   0             7s
-kube-system          kube-proxy-k9t79                          1/1     Running   1 (49m ago)   23d
-kube-system          kube-scheduler-controlplane               1/1     Running   1 (49m ago)   23d
-local-path-storage   local-path-provisioner-5c94487ccb-xxglc   1/1     Running   1 (49m ago)   23d
+kube-system          calico-kube-controllers-fdf5f5495-g6nd4   1/1     Running   1 (53m ago)   23d
+kube-system          canal-grvvt                               2/2     Running   2 (53m ago)   23d
+kube-system          coredns-6ff97d97f9-8v98s                  1/1     Running   1 (53m ago)   23d
+kube-system          coredns-6ff97d97f9-9j8cr                  1/1     Running   1 (53m ago)   23d
+kube-system          etcd-controlplane                         1/1     Running   1 (53m ago)   23d
+kube-system          kube-apiserver-controlplane               1/1     Running   1 (53m ago)   23d
+kube-system          kube-controller-manager-controlplane      1/1     Running   0             3m36s
+kube-system          kube-proxy-k9t79                          1/1     Running   1 (53m ago)   23d
+kube-system          kube-scheduler-controlplane               1/1     Running   1 (53m ago)   23d
+local-path-storage   local-path-provisioner-5c94487ccb-xxglc   1/1     Running   1 (53m ago)   23d
 ```
 
 🧩 Kubernetes issue solved — everything is back on track!
