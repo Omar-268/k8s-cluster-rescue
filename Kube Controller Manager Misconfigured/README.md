@@ -1,7 +1,7 @@
 # Scenario: Kube Controller Manager Misconfigured
 
 ## 📝 Problem Description
-A custom Kube Controller Manager container image was running in this cluster for testing. It has been reverted back to the default one, but it's not coming back up. Fix it.
+A custom Kube Controller Manager container image was running in this cluster for testing. It has been reverted back to the default one, but it's not coming back up. 
 
 When you check the pods, you will find that the kube-controller-manager pod is in CrashLoopBackOff.
 
