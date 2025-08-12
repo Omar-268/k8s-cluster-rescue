@@ -1,7 +1,7 @@
 # Scenario: Kubelet Misconfigured
 
 ## 📝 Problem Description
-Someone tried to improve the Kubelet on Node node01 , but broke it instead.
+Someone tried to improve the Kubelet on node01 , but broke it instead.
 
 When you check the Nodes status, you will find that node01 is in NotReady state.
 ```
