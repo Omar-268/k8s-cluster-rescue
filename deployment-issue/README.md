@@ -1,4 +1,4 @@
-# Scenario: Deployment-issue
+# Scenario: Deployment-Issue
 
 ## Problem Description
 `postgres-deployment.yaml` template is there, now we can't create object due to some issue in that.
