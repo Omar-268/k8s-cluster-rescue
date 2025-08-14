@@ -1,4 +1,4 @@
-# Scenario: Pod Issue
+# Scenario: Deployment-issue
 
 ## Problem Description
 `postgres-deployment.yaml` template is there, now we can't create object due to some issue in that.
