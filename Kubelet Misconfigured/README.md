@@ -1,6 +1,6 @@
 # Scenario: Kubelet Misconfigured
 
-## 📝 Problem Description
+## Problem Description
 Someone tried to improve the Kubelet on node01 , but broke it instead.
 
 When you check the Nodes status, you will find that node01 is in NotReady state.
@@ -10,7 +10,7 @@ NAME           STATUS     ROLES           AGE   VERSION
 controlplane   Ready      control-plane   23d   v1.33.2
 node01         NotReady   <none>          23d   v1.33.2
 ```
-## 🛠️ How to Fix It
+## How to Fix It
 
 ### Step 1 – SSH into Node01
 Connect to the worker node (node01) via SSH to investigate the kubelet service, which is responsible for node–API server communication in Kubernetes. This step ensures we can directly access system logs, check service status, and troubleshoot potential startup issues on the node.
@@ -55,7 +55,7 @@ KUBELET_KUBEADM_ARGS="--container-runtime-endpoint=unix:///var/run/containerd/co
 ```
 Now remove the unrecognized flag `--improve-speed`
 
-## ✅ Verification
+## Verification
 After removing the invalid flag go back to the controlplane.
 you can now see that the Node is Ready.
 ```
@@ -66,6 +66,9 @@ node01         Ready    <none>          23d   v1.33.2
 ```
 
 🧩 Kubernetes issue solved — everything is back on track!
+
+### Reference Lab
+You can try this scenario yourself in the following lab: https://killercoda.com/killer-shell-cka/scenario/kubelet-misconfigured
 
 
 
