@@ -135,7 +135,7 @@ Source:
     HostPathType:  
 Events:            <none>
 ```
-Update the StorageClass and set it to manual
+Update the StorageClass and set it to manually
 
 ## Verification
 Now, check the pod’s status and you will see that it is finally Running
