@@ -1,6 +1,6 @@
 # Scenario: Kube Controller Manager Misconfigured
 
-## 📝 Problem Description
+## Problem Description
 A custom Kube Controller Manager container image was running in this cluster for testing. It has been reverted back to the default one, but it's not coming back up. 
 
 When you check the pods, you will find that the kube-controller-manager pod is in CrashLoopBackOff.
@@ -19,7 +19,7 @@ kube-system          kube-proxy-k9t79                          1/1     Running  
 kube-system          kube-scheduler-controlplane               1/1     Running            1 (28m ago)     23d
 local-path-storage   local-path-provisioner-5c94487ccb-xxglc   1/1     Running            1 (28m ago)     23d
 ```
-## 🛠️ How to Fix It
+## How to Fix It
 
 ### Step 1 – Check the Pod Logs
 The very first step in diagnosing this issue is to review the logs of the affected pod to identify any error messages or unusual behavior.
@@ -71,7 +71,7 @@ spec:
     - --service-cluster-ip-range=10.96.0.0/12
     - --use-service-account-credentials=true
 ```
-## ✅ Verification
+## Verification
 After removing the invalid flag and re-checking the pod status, it should now be in the Running state.
 ```
 NAMESPACE            NAME                                      READY   STATUS    RESTARTS      AGE
@@ -88,3 +88,6 @@ local-path-storage   local-path-provisioner-5c94487ccb-xxglc   1/1     Running  
 ```
 
 🧩 Kubernetes issue solved — everything is back on track!
+
+### Reference Lab
+You can try this scenario yourself in the following lab: https://killercoda.com/killer-shell-cka/scenario/kube-controller-manager-misconfigured
