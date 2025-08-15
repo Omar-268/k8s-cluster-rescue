@@ -130,6 +130,7 @@ users:
 By inspecting /etc/kubernetes/kubelet.conf, we were able to identify two issues.
 - Invalid API server port → The server field shows :64433333 
 - Same file path for certificate and key → Both client-certificate and client-key point to the same file (/var/lib/kubelet/pki/kubelet-client-current.pem), which is incorrect.
+
 Solution:
 - Change the Port form 64433333 to the right one → 6443
 - Point client-certificate to the public cert and client-key to the private key in kubelet.conf
