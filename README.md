@@ -21,4 +21,14 @@ Perfect for practicing real-world Kubernetes debugging skills.
 Each lab includes:
 - Problem description  
 - Step-by-step troubleshooting  
-- Final solution  
+- Final solution
+
+## Author & Contact
+
+**Created by:** Omar Ahmed  
+**GitHub:** [Omar-268](https://github.com/Omar-268)  
+**LinkedIn:** [Omar Ahmed](www.linkedin.com/in/omar-ahmed-3636402b8)  
+**Email:** contactme.omarahmed@gmail.com 
+
+Feel free to reach out for questions, suggestions, or collaboration opportunities!
+
