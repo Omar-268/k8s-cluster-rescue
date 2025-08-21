@@ -27,7 +27,7 @@ Each lab includes:
 
 **Created by:** Omar Ahmed  
 **GitHub:** [Omar-268](https://github.com/Omar-268)  
-**LinkedIn:** [Omar Ahmed](www.linkedin.com/in/omar-ahmed-3636402b8)  
+**LinkedIn:** [Omar Ahmed](https://www.linkedin.com/in/omar-ahmed-3636402b8/)  
 **Email:** contactme.omarahmed@gmail.com 
 
 Feel free to reach out for questions, suggestions, or collaboration opportunities!
