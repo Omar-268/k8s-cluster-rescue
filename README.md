@@ -7,7 +7,7 @@ Perfect for practicing real-world Kubernetes debugging skills.
 
 | Lab | Description | Link |
 |-----|-------------|------|
-| Lab 1 |  Kube Controller Manager misconfiguration causing `CrashLoopBackOff` | [Go to Lab 1](./Kube Controller Manager Misconfigured) |
+| Lab 1 |  Kube Controller Manager misconfiguration causing `CrashLoopBackOff` | [Go to Lab 1](./Kube%20Controller%20Manager%20Misconfigured) |
 | Lab 2 | Fixing Pod in `CrashLoopBackOff` | [Go to Lab 2](labs/lab2) |
 | Lab 3 | Service not accessible from outside the cluster | [Go to Lab 3](labs/lab3) |
 | Lab 4 | PersistentVolume and PVC issues | [Go to Lab 4](labs/lab4) |
